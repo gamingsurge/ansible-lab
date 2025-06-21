@@ -1,0 +1,17 @@
+---
+- name: Configure VLANs on Cisco IOS Switches
+  hosts: cisco_switches
+  gather_facts: no
+  connection: network_cli
+
+  tasks:
+    - name: Ensure VLAN 10 exists
+      cisco.ios.ios_vlans:
+        config:
+          - vlan_id: 10
+            name: MGMT
+          - vlan_id: 20
+            name: USERS
+          - vlan_id: 30
+            name: SERVERS
+        state: merged
