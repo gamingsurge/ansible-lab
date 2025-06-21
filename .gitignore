@@ -1,0 +1,17 @@
+# Ignore sensitive vars
+group_vars/
+host_vars/
+
+# Ignore Ansible retry files
+*.retry
+
+# Ignore vault password files
+.vault_pass
+
+# Ignore logs
+*.log
+
+# Ignore editor/system files
+*.swp
+.DS_Store
+__pycache__/
