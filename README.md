@@ -29,7 +29,7 @@ Welcome to my personal Ansible lab! This repository showcases how I use Ansible 
 Clone the repo:
 
 ```bash
-git clone git@github.com:gamingsurge/ansible-lab.git
+git clone git@github.com:gamingsurge/ansible-vlan-lab.git
 cd ansible-lab
 ```
 
