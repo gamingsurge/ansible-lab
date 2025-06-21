@@ -1,5 +1,5 @@
 cat <<EOF > README.md
-# 🧠 Ansible Network Automation Lab
+#  🧠 Ansible VLAN Automation Lab
 
 Welcome to my personal Ansible lab! This repository showcases how I use Ansible to automate network device configurations, structure scalable playbooks, and manage encrypted variables using Ansible Vault.
 
