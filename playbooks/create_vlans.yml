@@ -4,6 +4,10 @@
   gather_facts: no
   connection: network_cli
 
+
+  vars_files:
+    - ../group_vars/cisco_switches.yml
+
   tasks:
     - name: Ensure VLAN 10 exists
       cisco.ios.ios_vlans:
